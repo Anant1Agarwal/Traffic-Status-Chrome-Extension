@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Traffic Status",
+    "author": "Anant Agarwal",
+    "version": "0.0.1",
+    "description": "This extension shows the HTTP status of the current page and the different redirects that the page has gone through.",
+  
+    "action": {
+      "default_popup": "/html/popup.html",
+      "default_icon": "/assets/logo.png"
+    },
+    "icons": {"128": "/assets/logo.png"},
+    "host_permissions": [
+      "<all_urls>" 
+    ],
+  
+    "background": {
+      "service_worker": "/scripts/background.js"
+    },
+  
+    "permissions": [
+      "webRequest",
+      "tabs",
+      "storage",
+      "activeTab",
+      "scripting"
+    ]
+    ,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["/scripts/content.js"]
+    }]
+  }
+  
