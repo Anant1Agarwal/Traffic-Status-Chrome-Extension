@@ -40,13 +40,13 @@ Once loaded, the extension icon will appear in your Chrome toolbar. Clicking the
 
 This will reload the extension with any changes you've made to the code.
 
+ 
+### Screenshots:
 
-**Screenshots:**
+![DefaultPopup](https://github.com/Anant1Agarwal/Traffic-Status-Chrome-Extension/assets/123150114/ccaa5686-b38b-47d9-9cb7-421f86d2c6a1)
 
-![Screenshot of Default popup window](path/to/your/popup_screenshot.png)
+![HTTPStatuscode1](https://github.com/Anant1Agarwal/Traffic-Status-Chrome-Extension/assets/123150114/1622298e-079d-468f-9c4b-bc68e11b4b49)
+![HTTPStatuscode2](https://github.com/Anant1Agarwal/Traffic-Status-Chrome-Extension/assets/123150114/757171b6-4b8f-4315-bd34-3c071dd7ac4e)
 
-![Screenshot of HTTP status Code 1](path/to/your/popup_screenshot.png)
+![RedirectsLogPage](https://github.com/Anant1Agarwal/Traffic-Status-Chrome-Extension/assets/123150114/1742ef50-e9ef-4e44-b0dd-15412defc8ac)
 
-![Screenshot of HTTP status Code 2](path/to/your/popup_screenshot.png)
-
-![Screenshot of Redirects page window](path/to/your/popup_screenshot.png)
